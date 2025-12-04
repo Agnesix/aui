@@ -1,0 +1,84 @@
+ Pobierz wszystkie gatunki
+GET http://localhost:8080/api/genres
+Accept: application/json
+
+###
+
+# Pobierz jeden gatunek (UUID z DataInitializer)
+GET http://localhost:8080/api/genres/aaea9adf-5ea2-40a2-84f2-e6eaf97ecd10
+Accept: application/json
+
+###
+
+# Dodaj nowy gatunek
+POST http://localhost:8080/api/genres
+Content-Type: application/json
+
+{
+  "name": "Mystery",
+  "popularity": 70,
+  "description": "Detective and thriller books"
+}
+
+###
+
+# Zaktualizuj gatunek
+PUT http://localhost:8080/api/genres/e7758b14-561b-445f-8a49-b4593e6490bb
+Content-Type: application/json
+
+{
+  "name": "Fantasy Updated",
+  "popularity": 96,
+  "description": "Updated description"
+}
+
+###
+
+# Usuń gatunek
+DELETE http://localhost:8080/api/genres/4275dd98-acc6-4429-8150-efa3aea6f973
+
+###
+
+
+# Pobierz wszystkie książki
+GET http://localhost:8080/api/books
+Accept: application/json
+
+###
+
+# Pobierz jedną książkę
+GET http://localhost:8080/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Accept: application/json
+
+###
+
+# Dodaj nową książkę
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "isbn": 555,
+  "publicationYear": 2014,
+  "genreId": "1"
+}
+
+###
+
+# Zaktualizuj książkę
+PUT http://localhost:8080/api/books/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Content-Type: application/json
+
+{
+  "title": "Dune - Updated",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "8b9fd235-1f26-4f01-bd59-dd54d78e5866"
+}
+
+###
+
+# Usuń książkę
+DELETE http://localhost:8080/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e

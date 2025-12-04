@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-11-18T09:02:16.496+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/api/genres/e5a1f67a-2f3d-4f55-b8c3-1e8e7b5a9b22"
+}

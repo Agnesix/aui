@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-11-18T07:44:08.582+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/api/books/8b9fd235-1f26-4f01-bd59-dd54d78e5866"
+}

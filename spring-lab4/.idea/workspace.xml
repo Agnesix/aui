@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ae9cf1b-5dd6-47e4-8196-694035de5db6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Spring Repository" />
+        <option value="Spring Service" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="34bFcOOBuRmmXHpUcxJhN1fFB1w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.request | #1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #9.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | Create genre.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | GENRES ######.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringLabApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringLabApplication (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringLabApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/agapa/IdeaProjects/spring-lab4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4\Book\src\main\java\pl\edu\lab2\spring_lab" />
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4\Genre\src\main\resources" />
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4\Gateway\src\main\resources" />
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4\Book\src\main\java\pl\edu\lab2\spring_lab\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4\Gateway\src\main\resources\config" />
+      <recent name="C:\Users\agapa\IdeaProjects\spring-lab4" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.edu.lab2.spring_lab.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.edu.lab2.spring_lab.entity" />
+      <recent name="pl.edu.lab2.spring_lab.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+    <configuration name="request | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Genre/src/main/java/pl/edu/lab2/spring_lab/request.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Genre/src/main/java/pl/edu/lab2/spring_lab/request.http" executionIdentifier="#5" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Genre/src/main/java/pl/edu/lab2/spring_lab/request.http" executionIdentifier="#6" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Genre/src/main/java/pl/edu/lab2/spring_lab/request.http" executionIdentifier="#7" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Genre/src/main/java/pl/edu/lab2/spring_lab/request.http" executionIdentifier="#8" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-lab (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.edu.lab2.spring_lab.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringLabApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-lab (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.edu.lab2.spring_lab.SpringLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringLabApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-lab (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.edu.lab2.spring_lab.SpringLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="spring-lab (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.edu.lab2.spring_lab.SpringLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.request | #5" />
+        <item itemvalue="HTTP Request.request | #8" />
+        <item itemvalue="HTTP Request.request | #7" />
+        <item itemvalue="HTTP Request.request | #6" />
+        <item itemvalue="HTTP Request.request | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ae9cf1b-5dd6-47e4-8196-694035de5db6" name="Changes" comment="" />
+      <created>1761474443182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761474443182</updated>
+      <workItem from="1761474444616" duration="20479000" />
+      <workItem from="1761647875032" duration="3707000" />
+      <workItem from="1762857034626" duration="816000" />
+      <workItem from="1762940361490" duration="3349000" />
+      <workItem from="1763401307413" duration="1074000" />
+      <workItem from="1763406064894" duration="972000" />
+      <workItem from="1763407072553" duration="1138000" />
+      <workItem from="1763408302604" duration="188000" />
+      <workItem from="1763408509650" duration="21000" />
+      <workItem from="1763410221779" duration="70000" />
+      <workItem from="1763410298433" duration="14320000" />
+      <workItem from="1763661433995" duration="602000" />
+      <workItem from="1764781489960" duration="17501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

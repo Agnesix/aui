@@ -1,0 +1,561 @@
+GET http://localhost:8080/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113603.200.json
+
+###
+
+DELETE http://localhost:8082/api/books/c896ce5e-1a47-406a-9f7b-5b68ef0d66ac
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113516.200.json
+
+###
+
+POST http://localhost:8080/api/books
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "isbn": 555,
+  "publicationYear": 2014,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T113454.500.json
+
+###
+
+POST http://localhost:8082/api/books
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "isbn": 555,
+  "publicationYear": 2014,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T113448.201.json
+
+###
+
+GET http://localhost:8080/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113434.200.json
+
+###
+
+GET http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113423.200.json
+
+###
+
+GET http://localhost:8080/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113418.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T113227.200.json
+
+###
+
+DELETE http://localhost:8082/api/books/aad591d2-6364-4a2c-8258-e215db896191
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Content-Type: application/json
+Content-Length: 193
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "cad5629a-9600-456d-aacf-f5a6c6a10a8e",
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T100312.405.json
+
+###
+
+POST http://localhost:8082/api/books
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "isbn": 555,
+  "publicationYear": 2014,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T100309.201.json
+
+###
+
+GET http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100301.200.json
+
+###
+
+GET http://localhost:8080/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100255.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100242.200.json
+
+###
+
+DELETE http://localhost:8080/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/genres/e5a1f67a-2f3d-4f55-b8c3-1e8e7b5a9b22
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Fantasy Updated",
+  "popularity": 96,
+  "description": "Updated description"
+}
+
+<> 2025-11-18T100216.405.json
+
+###
+
+POST http://localhost:8080/api/genres
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Romance",
+  "popularity": 70,
+  "description": "Love stories"
+}
+
+<> 2025-11-18T100212.201.json
+
+###
+
+GET http://localhost:8080/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100208.200.json
+
+###
+
+GET http://localhost:8080/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100137.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T100113.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T095612.404.json
+
+###
+
+GET http://localhost:8080/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T094714.404.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T094709.404.json
+
+###
+
+GET http://localhost:8081/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T094700.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T094648.404.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T094642.200.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T092506.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T092500.404.json
+
+###
+
+GET http://localhost:8080/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T090450.404.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085516.200.json
+
+###
+
+DELETE http://localhost:8081/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8081/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085454.200.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085451.200.json
+
+###
+
+DELETE http://localhost:8081/api/genres/4275dd98-acc6-4429-8150-efa3aea6f973
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-18T085200.404.json
+
+###
+
+DELETE http://localhost:8080/api/genres/4275dd98-acc6-4429-8150-efa3aea6f973
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-18T085144.404.json
+
+###
+
+PUT http://localhost:8081/api/genres/e5a1f67a-2f3d-4f55-b8c3-1e8e7b5a9b22
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Fantasy Updated",
+  "popularity": 96,
+  "description": "Updated description"
+}
+
+<> 2025-11-18T085142.405.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085133.200.json
+
+###
+
+POST http://localhost:8081/api/genres
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Romance",
+  "popularity": 70,
+  "description": "Love stories"
+}
+
+<> 2025-11-18T085131.201.json
+
+###
+
+GET http://localhost:8081/api/genres/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085127.200.json
+
+###
+
+GET http://localhost:8081/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085117.200.json
+
+###
+
+GET http://localhost:8080/api/genres
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T085108.404.json
+
+###
+
+PUT http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Content-Type: application/json
+Content-Length: 193
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "cad5629a-9600-456d-aacf-f5a6c6a10a8e",
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T084645.405.json
+
+###
+
+GET http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T084618.200.json
+
+###
+
+PUT http://localhost:8082/api/books/cad5629a-9600-456d-aacf-f5a6c6a10a8e
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T084609.405.json
+
+###
+
+GET http://localhost:8082/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T084509.200.json
+
+###
+
+DELETE http://localhost:8082/api/books/aad591d2-6364-4a2c-8258-e215db896191
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-11-18T084449.200.json
+
+###
+
+PUT http://localhost:8082/api/books/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T084408.405.json
+
+###
+
+PUT http://localhost:8080/api/books/8b9fd235-1f26-4f01-bd59-dd54d78e5866
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": 412,
+  "publicationYear": 1965,
+  "genreId": "4275dd98-acc6-4429-8150-efa3aea6f973"
+}
+
+<> 2025-11-18T084400.404.json
+
+###
+
