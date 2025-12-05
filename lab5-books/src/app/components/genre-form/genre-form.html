@@ -1,0 +1,44 @@
+<h2 *ngIf="!isEdit">Add new category</h2>
+<h2 *ngIf="isEdit">Edit category</h2>
+
+<div *ngIf="error" style="color: red; margin-bottom: 8px;">
+  {{ error }}
+</div>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div style="margin-bottom: 8px;">
+    <label>
+      Name:
+      <input type="text" formControlName="name" />
+    </label>
+    <span *ngIf="form.get('name')?.invalid && form.get('name')?.touched" style="color:red;">
+      Name is required
+    </span>
+  </div>
+
+  <div style="margin-bottom: 8px;">
+    <label>
+      Popularity:
+      <input type="number" formControlName="popularity" />
+    </label>
+    <span *ngIf="form.get('popularity')?.invalid && form.get('popularity')?.touched" style="color:red;">
+      Popularity must be >= 0
+    </span>
+  </div>
+
+  <div style="margin-bottom: 8px;">
+    <label>
+      Description:
+      <textarea formControlName="description" rows="3"></textarea>
+    </label>
+  </div>
+
+  <button type="submit" [disabled]="loading">
+    {{ isEdit ? 'Save changes' : 'Create category' }}
+  </button>
+  <button type="button" (click)="onCancel()" [disabled]="loading">
+    Cancel
+  </button>
+
+  <span *ngIf="loading" style="margin-left: 10px;">Saving...</span>
+</form>

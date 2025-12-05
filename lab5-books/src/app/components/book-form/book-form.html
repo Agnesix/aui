@@ -1,0 +1,63 @@
+<h2 *ngIf="mode === 'create'">Add new book</h2>
+<h2 *ngIf="mode === 'edit'">Edit book</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div>
+    <label>
+      Title:
+      <input type="text" formControlName="title" />
+    </label>
+    <div
+      *ngIf="
+    form.get('title')?.touched &&
+    form.get('title')?.invalid
+  "
+    >
+      Title is required.
+    </div>
+    <label>
+      Author:
+      <input type="text" formControlName="author" />
+    </label>
+
+    <div
+      *ngIf="
+    form.get('author')?.touched &&
+    form.get('author')?.invalid
+  "
+    >
+      Author is required.
+    </div>
+    <label>
+      ISBN:
+      <input type="text" formControlName="isbn" />
+    </label>
+
+    <div
+      *ngIf="
+    form.get('isbn')?.touched &&
+    form.get('isbn')?.invalid
+  "
+    >
+      ISBN is required.
+    </div>
+
+    <div
+      *ngIf="
+    form.get('publicationYear')?.touched &&
+    form.get('publicationYear')?.invalid
+  "
+    >
+      Publication year is required.
+    </div>
+
+  </div>
+
+  <p *ngIf="error" style="color: red;">{{ error }}</p>
+
+  <button type="submit" [disabled]="saving">
+    {{ mode === 'create' ? 'Create book' : 'Save changes' }}
+  </button>
+  <button type="button" (click)="onCancel()">Cancel</button>
+  <span *ngIf="saving">&nbsp;Saving...</span>
+</form>

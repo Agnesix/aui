@@ -1,0 +1,18 @@
+<h2>Book details</h2>
+
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngIf="!loading && !error && book; else noBook">
+  <p><strong>Title:</strong> {{ book!.title }}</p>
+  <p><strong>Author:</strong> {{ book!.author }}</p>
+  <p><strong>ISBN:</strong> {{ book!.isbn }}</p>
+  <p><strong>Publication year:</strong> {{ book!.publicationYear }}</p>
+
+  <button (click)="onBack()">Back to category</button>
+  <button (click)="onEdit()">Edit</button>
+</div>
+
+<ng-template #noBook>
+  <p>Book not found.</p>
+</ng-template>

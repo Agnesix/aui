@@ -1,0 +1,41 @@
+<h2>Categories (Genres)</h2>
+
+<button (click)="onAdd()">Add new category</button>
+
+<p>Debug loading = {{ loading }}</p>
+
+<!-- Możesz zostawić prosty tekst, ale bez blokowania reszty -->
+<div *ngIf="loading">
+  Loading...
+</div>
+
+<!-- ZAWSZE pokazujemy listę kategorii -->
+<div>
+  <!-- Błąd -->
+  <div *ngIf="error">{{ error }}</div>
+
+  <!-- Tabela z kategoriami -->
+  <table *ngIf="genres.length; else noGenres">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th style="width: 220px;">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let g of genres">
+      <td>{{ g.name }}</td>
+      <td>
+        <button (click)="onDetails(g.id)">Details</button>
+        <button (click)="onEdit(g.id)">Edit</button>
+        <button (click)="onDelete(g.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <!-- Brak kategorii -->
+  <ng-template #noGenres>
+    <p>No categories.</p>
+  </ng-template>
+</div>

@@ -1,0 +1,47 @@
+<h2>Category details</h2>
+
+<div *ngIf="genre; else noGenre">
+  <h3>{{ genre.name }}</h3>
+
+  <p><strong>Popularity:</strong> {{ genre.popularity }}</p>
+  <p><strong>Description:</strong> {{ genre.description }}</p>
+
+  <button (click)="onBack()">Back to list</button>
+  <button (click)="onEditGenre()">Edit category</button>
+  <button (click)="onAddBook()">Add new book</button>
+
+  <hr />
+
+  <h3>Books in this category</h3>
+
+  <div *ngIf="loadingBooks">
+    Loading books...
+  </div>
+
+  <table *ngIf="books.length; else noBooks">
+    <thead>
+    <tr>
+      <th>Title</th>
+      <th style="width: 240px;">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let b of books">
+      <td>{{ b.title }}</td>
+      <td>
+        <button (click)="onBookDetails(b.id)">Details</button>
+        <button (click)="onBookEdit(b.id)">Edit</button>
+        <button (click)="onBookDelete(b.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <ng-template #noBooks>
+    <p>No books in this category yet.</p>
+  </ng-template>
+</div>
+
+<ng-template #noGenre>
+  <p>Category not found.</p>
+</ng-template>
